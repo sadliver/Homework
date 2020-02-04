@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding: 5px;
+          text-align: center;    
+        }
+        p{
+            font-size: 20px;
+        }
+        </style>
+</head>
+<body>
+    <h1>1.attribute</h1>
+    <table style="width: 100%;">
+        <tr>
+            <th>Name tag</th>
+            <th colspan="2">วิธีใช้งาน</th>
+        </tr>
+        <tr>
+            <td>< h ></h></td>
+            <td>ใช้กำหนดหัวข้อของข้อความ</td>
+        </tr>
+        <tr>
+            <td>< p ></p></td>
+            <td>ใช้เป็นข้อความบางส่วนในย่อหน้า</td>
+        </tr>
+        <tr>
+            <td>< div ></td>
+            <td>แท๊กกำหนดส่วน อยู่ถัดไปจาก element ก่อนหน้า</td>
+        </tr>
+        <tr>
+            <td>< img ></td>
+            <td>แท๊กรูปภาพ</td>
+        </tr>
+        <tr>
+            <td>< a ></a></td> 
+            <td>แท๊กลิงค์</td>
+        </tr>
+        <tr>
+            <td>< ul ></ul></td>
+            <td>แท๊กการเรียงลำดับแบบสัญลักษณ์</td>
+        </tr>
+        <tr>
+            <td>< ol ></ol></td>
+            <td>แท๊กการเรียงลำดับแบบตัวเลข</td>
+        </tr>
+        <tr>
+            <td>< table ></td>
+            <td>ใช้กำหนดตาราง</td>
+        </tr>
+        <tr>
+            <td>< form ></form></td>
+            <td>ใช้กำหนดฟอร์มในรูปแบบข้อมูล</td>
+        </tr>
+        <tr>
+            <td>< button ></td>
+            <td>ใช้เป็นปุ่มกด</td>
+        </tr>
+    </table>
+
+    
+    <h1>2.differentiation tag </h1>
+    <table style="width: 100%;">
+        <tr>
+            <th>Name tag</th>
+            <th>สิ่งที่เหมือนกัน</th>
+            <th>สิ่งที่ต่างกัน</th>
+        </tr>
+        <tr>
+            <td>hr & br</td>
+            <td>เป็นตัวแบ่ง element</td>
+            <td>hr ใช้สร้างเส้น <br>br ใช้สำหรับขึ้นบรรทัดใหม่</td>
+        </tr>
+        <tr>
+            <td>ul & ol</td>
+            <td>ใช้สร้างข้อความรูปแบบ list</td>
+            <td>ul เป็นการเรียงรูปแบบสัญลักษณ์ <br>ol เป็นการเรียงรูปแบบตัวเลข</td>
+        </tr>
+        <tr>
+            <td>select & checkbox</td>
+            <td>สร้างตัวเลือก</td>
+            <td>select เลือกอย่างใดอย่างหนึ่ง <br>checkbox เลือกได้มากกว่า1ข้อ</td>
+        </tr>
+        <tr>
+            <td>radio & button</td>
+            <td>เป็นเครื่องหมายสามารกดได้</td>
+            <td>radio เป็นปุ่มตัวเลือกวงกลม <br> button เป็นปุ่มสี่เหลี่ยม</td>
+        </tr>
+        <tr>
+            <td>div & span</td>
+            <td>กำหนดส่วน</td>
+            <td>div ใช้จัดกลุ่มองค์ประกอบ block level<br>span ใช้เพื่อจัดกลุ่มองค์ประกอบแบบ inline</td>
+        </tr>
+        <tr>
+            <td>script &style</td>
+            <td>แท๊กการกำหนดรูปแบบ</td>
+            <td>script ใช้กำหนดในรูปแบบสคริปต์<br>style ใช้กำหนดในรูปแบบข้อมูลสไตล์</td>
+        </tr>
+       
+        
+    </table>
+    <h1>3. input type </h1>
+    <table style="width: 100%;">
+        <tr>
+            <th>Input type</th>
+            <th colspan="2">หลักการใช้</th>
+        </tr>
+        <tr>
+            <td>"text"</td>
+            <td>กำหนดรูปแบบที่เป็นตัวหนังสือ</td>
+        </tr>
+        <tr>
+            <td>"button"</td>
+            <td>กำหนดปุ่มกด</td>
+        </tr>
+        <tr>
+            <td>"checkbox"</td>
+            <td>เป็นรูปแบบปุ่มกดแบบตัวเลือก สามารถเลือกได้มากกว่าหนึ่ง</td>
+        </tr>
+        <tr>
+            <td>"color"</td>
+            <td>การกำหนดรูปแบบของสี</td>
+        </tr>
+        <tr>
+            <td>"date"</td>
+            <td>การกำหนดรูปแบบของวันที่</td>
+        </tr>
+        <tr>
+            <td>"datetime-local"</td>
+            <td>การกำหนดเขตข้อมูลวันที่และเวลาโดยไม่มีเขตเวลา</td>
+        </tr>
+        <tr>
+            <td>"email"</td>
+            <td>การกำหนดรูปแบบอีเมล</td>
+        </tr>
+        <tr>
+            <td>"file"</td>
+            <td>การกำหนดรูปแบบไฟล์</td>
+        </tr>
+        <tr>
+            <td>"image"</td>
+            <td>การทำหนดรูปแบบรูปภาพ</td>
+        </tr>
+        <tr>
+            <td>"month"</td>
+            <td>การทำหนดรูปแบบเดือน</td>
+        </tr>
+        <tr>
+            <td>"number"</td>
+            <td>การทำหนดรูปแบบตัวเลข</td>
+        </tr>
+        <tr>
+            <td>"password"</td>
+            <td>ใช้รับค่าอักษรเป็นรหัสผ่าน ซึ่งจะถูกปิดบังไว้เป็นเครื่องหมาย *</td>
+        </tr>
+        <tr>
+            <td>"radio"</td>
+            <td>เป็นรูปแบบปุ่มกดแบบตัวเลือกอย่างใดอย่างหนึ่ง</td>
+        </tr>
+        <tr>
+            <td>"range"</td>
+            <td>การทำหนดรูปแบบตัวเลขแบบจำกัด</td>
+        </tr>
+        <tr>
+            <td>"reset"</td>
+            <td>ใช้กำหนดปุ่มรีเซ็ตที่จะรีเซ็ตค่าแบบฟอร์มทั้งหมดเป็นค่าเริ่มต้น</td>
+        </tr>
+        <tr>
+            <td>"search"</td>
+            <td>การหนดรูปแบบค้นหา</td>
+        </tr>
+        <tr>
+            <td>"submit"</td>
+            <td>ใช้สำหรับส่งข้อมูลฟอร์มไปยัง form-handler</td>
+        </tr>
+        <tr>
+            <td>"tel"</td>
+            <td>การกำหนดรูปแบบตัวเลขโทรศัพท์</td>
+        </tr>
+        <tr>
+            <td>"time"</td>
+            <td>การกำหนดรูปแบบเวลา</td>
+        </tr>
+        <tr>
+            <td>"url"</td>
+            <td>การกำหนดรูปแบบลิงค์</td>
+        </tr>
+        <tr>
+            <td>"week"</td>
+            <td>การกำหนดรูปแบบสัปดาห์</td>
+        </tr>
+    </table>
+
+<h3>Test tag</h3>
+<p><strong>guide</strong><br>
+<label>guide</label><br>
+<del>guide</del><br>
+<b>guide</b><br>
+<em>guide</em><br>
+<mark>guide</mark><br>
+<i>guide</i><br>
+<sub>guide</sub><br>
+<sup>guide</sup><br>
+</p>
+</body>
+</html>
